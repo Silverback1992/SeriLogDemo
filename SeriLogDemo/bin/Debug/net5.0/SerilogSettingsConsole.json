@@ -1,0 +1,16 @@
+{
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ],
+
+  "Serilog": {
+    "Using": [ "Serilog.Sinks.Console"],
+    "MinimumLevel": "Debug",
+    "WriteTo": [ "Console" ]
+  }
+}
