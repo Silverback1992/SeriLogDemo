@@ -33,13 +33,17 @@ namespace SeriLogDemo
 
             #region Serilog Simple File Logging
 
-            //TO DO
+            SeriLogSimpleFileLogging.LogToFileMostBasic();
+            SeriLogSimpleFileLogging.LogToFileWithTemplate();
+            SeriLogSimpleFileLogging.LogToFileWithSettings();
 
             #endregion Serilog Simple File Logging
 
             #region Serilog Simple db Logging
 
-            //TO DO
+            SeriLogSimpleDBLog.LogToDbMostBasic();
+            SeriLogSimpleDBLog.LogToDbWithFewerColumns();
+            //ADD SOME MORE EXAMPLES
 
             #endregion Serilog Simple db Logging
 

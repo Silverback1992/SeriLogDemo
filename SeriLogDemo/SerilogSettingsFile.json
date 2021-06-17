@@ -1,0 +1,22 @@
+{
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ],
+
+  "Serilog": {
+    "WriteTo": [
+      {
+        "Name": "File",
+        "Args": {
+          "path": "E:\\Programming\\logWithSettings.txt",
+          "rollingInterval": "Day"
+        }
+      }
+    ]
+  }
+}
